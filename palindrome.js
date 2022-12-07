@@ -9,18 +9,17 @@ for(let i=string.length;i>=0;i--){
 bag+=string[i];
 
 }
-return bag
-
-
+return bag;
 }
+
 let reverse=reverse(string);
 
 if(string==reversed){
 
-console.log("palindrome");
+console.log("Palindrome");
 
 }else{
-console.log("not a palindrome");
+console.log("Not a palindrome");
 
 
 }
